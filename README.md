@@ -1,104 +1,74 @@
-⚡ Randomized Quick Sort Visual Lab
+# ⚡ Randomized Quick Sort Visual Lab
 
-🚀 Interactive visualization of Randomized Quick Sort using real-world simulations
-Built with ❤️ using Streamlit
+> 🚀 Interactive visualization of Randomized Quick Sort using real-world simulations  
+> Built with ❤️ using Streamlit
 
-🌟 Overview
 
-This project is a visual + interactive lab that demonstrates how Randomized Quick Sort (RQS) works in real-world systems.
+## 🌟 Overview
 
-Instead of boring static examples, this app simulates:
+This project is an interactive web app that demonstrates how **Randomized Quick Sort (RQS)** works in real-world systems.
 
-🛒 E-commerce product sorting
-🗄 Database query optimization
-🔍 Search engine ranking
+Instead of simple examples, it simulates:
 
-All in a clean, modern UI.
+- 🛒 E-commerce product sorting  
+- 🗄 Database query sorting  
+- 🔍 Search engine ranking  
 
-🎯 Why This Project?
 
-Traditional sorting demos are… boring.
+## 🎯 Features
 
-This project shows:
+- 🎨 Interactive and modern UI  
+- 📊 Real-time sorting visualization  
+- ⏱ Execution time tracking  
+- 🔁 Comparison counting  
+- 📈 Graph-based representation  
 
-⚡ How sorting works in real applications
-📊 Performance metrics (time + comparisons)
-🎨 Interactive visual graphs
-🧠 Algorithm Used
-Randomized Quick Sort
-Picks a random pivot instead of fixed
-Avoids worst-case scenarios
-Performs well on unpredictable real-world data
 
-Time Complexity:
+## 🧠 Algorithm Used
 
-Best Case:    O(n log n)
+### Randomized Quick Sort
+
+- Uses a **random pivot**
+- Avoids worst-case scenarios
+- Works efficiently on real-world data
+
+### Time Complexity
+
+Best Case: O(n log n)
 Average Case: O(n log n)
-Worst Case:   O(n²) (rare due to randomization)
-🧪 Features
+Worst Case: O(n^2)
 
-✨ Interactive UI
 
-Adjustable dataset sizes
-Real-time sorting visualization
+## 🖥️ Tech Stack
 
-📊 Live Metrics
+- Python  
+- Streamlit  
+- NumPy  
+- Plotly  
 
-Execution time
-Number of comparisons
-Complexity insights
 
-🌍 Real-world simulations
+## 🚀 Run Locally
 
-🛒 Product price sorting
-🗄 Database record ordering
-🔍 Search ranking optimization
-🖥️ Tech Stack
-🐍 Python
-⚡ Streamlit
-📊 NumPy
-📈 Plotly
-🚀 Run Locally
+```bash
 git clone https://github.com/aanyaagrawal26/RQS-Visual-Lab.git
 cd RQS-Visual-Lab
 
 pip install -r requirements.txt
 streamlit run app.py
-📸 Preview
 
-👉 Add screenshots here (HIGHLY recommended)
-
-Example:
-
-![App Screenshot](images/demo.png)
-💡 Real-World Use Cases
-
-Randomized Quick Sort is used in:
-
-🛒 E-commerce platforms (sorting products by price/rating)
-🗄 Database engines (query optimization)
-🔍 Search engines (ranking results)
-🔥 What Makes This Special?
-Not just theory — real-world simulation
-Clean, modern UI with dark theme
-Performance + visualization combined
-Beginner-friendly yet project-level strong
+💡 Use Cases
+E-commerce platforms (sorting products)
+Database systems (query optimization)
+Search engines (ranking results)
+🔥 Future Improvements
+Step-by-step animation mode
+Sound effects for sorting
+Mobile responsive UI
+Cloud deployment
 👨‍💻 Author
 
 Aanya Agrawal
 
 ⭐ Support
 
-If you like this project:
-
-👉 Give it a ⭐ on GitHub
-👉 Share with your friends
-
-🚀 Future Improvements
-🔊 Add sound-based sorting feedback
-🎮 Step-by-step animation mode
-📱 Mobile responsiveness
-☁️ Deploy on Streamlit Cloud
-⚡ Tagline
-
-“Sorting isn’t just an algorithm — it’s how systems think.”
+If you like this project, give it a ⭐ on GitHub!
